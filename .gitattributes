@@ -1,0 +1,8 @@
+# 声明在签出时始终具有LF行结尾的文件
+META-INF/** text eol=lf
+*.prop text eol=lf
+*.sh text eol=lf
+*.md text eol=lf
+
+# 表示所有真正为二进制的文件 不应修改
+system/** binary
