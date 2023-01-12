@@ -6,3 +6,6 @@ MODDIR=${0%/*}
 
 # 这个脚本将以 post-fs-data 模式执行
 # 更多信息请访问 Magisk 主题
+
+#由于v1.2的版本更新后模块ID发生改变，所以需要删除掉旧版本的模块
+rm -rf /data/adb/modules/scars
